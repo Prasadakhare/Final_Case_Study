@@ -24,7 +24,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().deleteAllCookies();
-		System.out.println("Driver obj ...."+driver);
+		//System.out.println("Driver obj ...."+driver);
 		
 	}
 	public static void initDriver() {
